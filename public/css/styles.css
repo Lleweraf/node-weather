@@ -1,0 +1,70 @@
+* {
+  font-family: Fira Mono;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+.body-container {
+  padding: 30px;
+}
+
+h1 {
+  margin: 10px 0;
+  color: grey;
+}
+
+.nav {
+  background-color: #ff9800;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+img.kikiks {
+  margin: auto;
+  width: 50%;
+  border-radius: 1000px;
+}
+
+div.messages {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #dedede;
+}
+
+span#location {
+  color: #868686;
+  padding: 5px;
+}
+
+span#forecast {
+  font-weight: 500;
+}
+
+span#error {
+  background-color: red;
+  padding: 5px;
+  color: #fff;
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #f44336;
+  color: #fff;
+  width: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
